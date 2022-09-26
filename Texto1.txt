@@ -1,7 +1,30 @@
 Pasos en Github
-Cambio realizado en remoto*
-Primer paso: Crear el Repositorio en remoto, luego pasar a local en GitHub desktop con el comando "git clone"
-Segundo paso: Realizar el comando "git pull" para actualizar y verificar cualquier otro cambio realizado en remoto
-Tercer paso: Realizar y subir los cambios en local con el comando "git add"
-Cuarto paso: Guardar los cambios realizados en local con el comando "git commit"
-Quinto paso: Subir los pasos a remoto con el comando "git push"
+
+1. He clonado mi repositorio desde el remoto a local con el siguiente comando:
+
+> git clone https://github.com/JavaCeep/repaso1.git
+
+2. Después he creado un nuevo archivo pasos llamado Pasos.txt:
+2a. Git detecta el nuevo archivo y sus posibles cambios y si lo quiero añadir
+para guardarlo debería ejecutar el siguiente comando:
+
+> git add Pasos.txt
+
+3. Guardo mis cambios a nivel local con el siguiente comando:
+
+> git commit -m "Nuevo archivo Pasos.txt"
+
+4. Voy a modificar este fichero en remoto, y guardar sus cambios para actualizar después 
+mi repo local.
+
+4.1 He hecho un git pull a nivel local para actualizar el repositorio local con todo
+lo que había incluido en el remoto:
+
+> git fetch
+> git pull
+
+5. He vuelto a modificar mi archivo local luego de nuevo se repite la secuencia de comandos add, commit y push
+
+git add Pasos.txt
+git commit -m "Inclusión paso 4"
+git push
