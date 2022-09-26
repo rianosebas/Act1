@@ -1,7 +1,7 @@
 Pasos en Github
 Cambio realizado en remoto*
-Primer paso: Crear el Repositorio en remoto, luego pasar a local en GitHub desktop
-Segundo paso: Realizar el comando "git pull" para actualizar cualquier otro cambio realizado en remoto
+Primer paso: Crear el Repositorio en remoto, luego pasar a local en GitHub desktop con el comando "git clone"
+Segundo paso: Realizar el comando "git pull" para actualizar y verificar cualquier otro cambio realizado en remoto
 Tercer paso: Realizar y subir los cambios en local con el comando "git add"
 Cuarto paso: Guardar los cambios realizados en local con el comando "git commit"
 Quinto paso: Subir los pasos a remoto con el comando "git push"
